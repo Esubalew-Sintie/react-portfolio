@@ -1,0 +1,107 @@
+
+.home{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+    /* position: relative; */
+    
+}
+.social-links{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-items: center;
+    justify-content: space-around;
+    left: -89px;
+    font-size: larger;
+    transition:  1s linear;
+}
+
+.social-links a{
+    margin-top: 10px;
+    width: 120px;
+    text-decoration: none;
+    display:flex;
+    justify-content: space-between;
+    transition:  1s linear;
+
+}
+.social-links :first-child{
+    background-color: rgb(98, 165, 236);
+}
+.social-links :nth-child(2){
+    background-color: rgb(242, 216, 102);
+}
+.social-links :nth-child(3){
+    background-color: rgb(246, 200, 200);
+}
+.social-links :nth-child(4){
+    background-color: rgb(134, 118, 126);
+}
+.social-links :hover{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    left: 85px;
+    font-size: larger;
+
+    width: 130px;
+
+
+}
+.list{
+    font-size: medium;
+    
+}
+
+
+.home-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   justify-items: start;
+   justify-content:center;
+   align-items: center;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start; */
+}
+.home-content :nth-child(1){
+    color: rgb(255, 128, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.home-content :nth-child(2){
+    color: rgb(139, 132, 132);
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.home-content :nth-child(3){
+    color: rgb(156, 234, 243);
+    font-size: 34px;
+}
+.home-content :nth-child(4){
+    color: rgb(134, 160, 183);
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.home-content p{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+.btn{
+    margin-top: 20px;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 24px;
+    border: 2px solid white;
+}
+.btn:hover{
+    background-color: rgb(7, 240, 158);
+    color: #000;
+}
